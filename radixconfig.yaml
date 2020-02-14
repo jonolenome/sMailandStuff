@@ -3,9 +3,6 @@ kind: RadixApplication
 metadata:
   name: jotest-app
 spec:
-  build:
-    secrets:
-      - SNYK_TOKEN
   environments:
     - name: production
       build:
